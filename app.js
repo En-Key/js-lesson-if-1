@@ -1,10 +1,5 @@
-let i=0;
-const lastNumber = 10;
-let message = '';
+for (var i=0; i<10; i++) {
 
-while (++i<=lastNumber) {
-    
-    message+=`${i}${i!=lastNumber ? ',':''},`;
 }
-console.log(message);
 
+console.log(i);
